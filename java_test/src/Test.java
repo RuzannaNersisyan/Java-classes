@@ -124,13 +124,13 @@ public class Test {
         }
         arrayOdd(randomArray);
 
-//        binaryToDecimal(new int[]{1, 1, 0, 0, 1, 1});
+        binaryToDecimal(new int[]{1, 1, 0, 0, 1, 1});
 
-//        mainDiagonal(new int[][] {{4, 5, 6}, {1, 2, 3}, {7, 8, 9}});
+        mainDiagonal(new int[][] {{4, 5, 6}, {1, 2, 3}, {7, 8, 9}});
 
-//        reverseMatrix(new int[][] {{4, 5, 6}, {1, 2, 3}, {7, 8, 9}});
+        reverseMatrix(new int[][] {{4, 5, 6}, {1, 2, 3}, {7, 8, 9}});
 
-//        evenOrOdd(new int[][] {{4, 5, 6}, {1, 2, 3}, {7, 8, 9}});
+        evenOrOdd(new int[][] {{4, 5, 6}, {1, 2, 3}, {7, 8, 9}});
 
     }
 }
