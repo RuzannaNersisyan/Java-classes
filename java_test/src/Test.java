@@ -115,7 +115,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        int size = 20;
+        int size = 40;
         int[] randomArray = new int[size];
 
         Random random = new Random();
