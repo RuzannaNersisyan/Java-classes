@@ -129,23 +129,23 @@ public class StringUtil {
         System.out.println(countSubString("We are living in an yellow submarine. We don't  have anything", "in"));
 
         System.out.println(makeUpperCase("hello woRld"));
-        System.out.println(makeUpperCase(new StringBuilder("hello woRld")));
+        System.out.println(makeUpperCase(new StringBuilder("hello world")));
 
         System.out.println(write20LengthString());
 
-        System.out.println(stringExceptA("We are living in an yellow submarine. We don't  have anything"));
+        System.out.println(stringExceptA("We are living above an yellow submarine. We don't  have anything"));
         System.out.println(stringExceptA(new StringBuilder("We are living in an yellow submarine. We don't  have anything")));
 
-        System.out.println(replaceAToAsterisk("We are living in an yellow submarine. We don't  have anything"));
+        System.out.println(replaceAToAsterisk("We are living above an yellow submarine. We don't  have anything"));
 
         System.out.println(getLongestWord("We are living in an yellow submarine . We don't  have anything"));
 
-        System.out.println(getFirstMatchedIndex("We are living in an yellow submarine. We don't  have anything", "a"));
+        System.out.println(getFirstMatchedIndex("We are living above an lovely yellow submarine. We don't  have anything", "a"));
 
-        printSubLine("We are living in an yellow submarine. We don't  have anything", 10);
+        printSubLine("We are also living in an yellow submarine. We don't  have anything", 10);
         printSubLine(new StringBuilder("We are living in an yellow submarine. We don't  have anything"), 10);
 
-        checkStringEmpty(null);
+        checkStringEmpty("");
 
         System.out.println(getLongestSubString("We, are, living, in an, yellow, submarine, We don't,  have anything"));
     }
