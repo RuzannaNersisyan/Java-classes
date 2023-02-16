@@ -129,7 +129,7 @@ public class StringUtil {
         System.out.println(countSubString("We are living in an yellow submarine. We don't  have anything", "in"));
 
         System.out.println(makeUpperCase("hello woRld"));
-        System.out.println(makeUpperCase(new StringBuilder("hello woRld")));
+        System.out.println(makeUpperCase(new StringBuilder("hello world")));
 
         System.out.println(write20LengthString());
 
