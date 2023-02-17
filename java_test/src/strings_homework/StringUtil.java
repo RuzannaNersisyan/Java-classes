@@ -98,7 +98,7 @@ public class StringUtil {
     }
 
     public static void checkStringEmpty(String str) {
-        if (str == "" || str == null) {
+        if (str == null || str.equals("")) {
             System.out.println("Your entered string is null or empty");
         }else {
             System.out.println("Your entered string is: " + str);
